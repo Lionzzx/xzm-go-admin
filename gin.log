@@ -1,0 +1,17 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /loginJSON                --> main.main.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2020/06/22 - 15:34:36 | 404 |            0s |             ::1 | GET      "/user/john2"
+[GIN] 2020/06/22 - 15:34:40 | 301 |            0s |             ::1 | GET      "/loginJSON"
+[GIN] 2020/06/22 - 15:35:08 | 404 |            0s |             ::1 | GET      "/user/john2"
+[GIN] 2020/06/22 - 15:35:08 | 404 |            0s |             ::1 | GET      "/favicon.ico"
+[GIN] 2020/06/22 - 15:35:11 | 404 |            0s |             ::1 | GET      "/user/john2"
+[GIN] 2020/06/22 - 15:35:21 | 404 |            0s |             ::1 | GET      "/favicon.ico"
+[GIN] 2020/06/22 - 15:35:22 | 404 |            0s |             ::1 | GET      "/user/john/"
+[GIN] 2020/06/22 - 15:35:22 | 404 |            0s |             ::1 | GET      "/favicon.ico"
+[GIN] 2020/06/22 - 15:35:36 | 404 |            0s |             ::1 | GET      "/user/john/"

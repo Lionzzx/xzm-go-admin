@@ -1,0 +1,22 @@
+# mysql connect configuration
+mysql:
+  username: root
+  password: '123456'
+  path: '127.0.0.1:3306'
+  db-name: 'shop'
+  config: 'charset=utf8&parseTime=True&loc=Local'
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: true
+# redis configuration
+redis:
+  addr: '127.0.0.1:6379'
+  password: ''
+  db: 0
+
+# oss configuration
+qiniu:
+  access-key: '2EfaaKLtNWh_1Vt9vK1p6wF3QR-XgT514XJ005ub'
+  secret-key: '3kFGmAK2qsLMtVge-zhfAi1gDrvOW3FZjApERuaR'
+  bucket: 'zhonglingzuche'
+  img-path: 'http://qay4dqzms.bkt.clouddn.com'
